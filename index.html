@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-CART</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+
+    <!-- <style>
+        #nn {
+            background-color: rgba(55, 6, 230, 0.908);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    </style> -->
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img class="ms-5"
+                    src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png"
+                    alt="Logo" width="120" class="d-inline-block align-text-top">
+                <span><B></B></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </b>
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Product</a>
+                        </li>
+                    </b>
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Offers</a>
+                        </li>
+                    </b>
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cart</a>
+                        </li>
+                    </b>
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About us</a>
+                        </li>
+                    </b>
+                    <b>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Help</a>
+                        </li>
+                    </b>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="ok" class="container-fluid align-text-center fixed d-flex flex-wrap">
+        <a class="navbar-brand "
+            href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_8012404c-3aa4-43a6-b32b-1c6857fe3289_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+            <img class="ms-5"
+                src="https://static.vecteezy.com/system/resources/thumbnails/012/443/044/small_2x/online-food-order-grocery-delivery-woman-shop-at-an-online-store-the-product-catalog-on-the-web-browser-page-stay-at-home-concept-quarantine-or-self-isolation-png.png"
+                alt="Logo" width="90" class="d-inline-block align-text-top">
+            <span><B>GROCERY</B></span>
+        </a>
+
+
+        <!-- <div class="container-fluid "> -->
+        <a class="navbar-brand  "
+            href="https://www.flipkart.com/clothing-and-accessories/bottomwear/pr?sid=clo,vua&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_7b7d9eb6-2a9d-4d24-8baf-f43df2791239_1_372UD5BXDFYS_MC.AX3QICES0ARQ&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BBottom%2BWear~All_AX3QICES0ARQ&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=AX3QICES0ARQ">
+            <img class="ms-5"
+                src="https://www.shutterstock.com/image-photo/surprised-modern-man-posing-his-260nw-1028171302.jpg"
+                alt="Logo" width="90" height="80px" class="d-inline-block align-text-top">
+            <span><B>FASHION</B></span>
+        </a>
+        <!-- </div> -->
+
+        <a class="navbar-brand "
+            href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_c5da5fab-292a-41f9-9e0a-97c284401def_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">
+            <img class="ms-5"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSop2Y-VN_1XSs-dYdsNqy2hCA3offOdCEuAQ&s"
+                alt="Logo" width="90" class="d-inline-block align-text-top">
+            <span><B>MOBILE</B></span>
+        </a>
+        <!--  -->
+
+        <a class="navbar-brand img-fluid"
+            href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_4886508e-ca44-4bf4-8746-8b7683a9c4ec_1_372UD5BXDFYS_MC.34WHNYFH5V2Y&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Electronics~Laptop%2Band%2BDesktop_34WHNYFH5V2Y&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L1_view-all&cid=34WHNYFH5V2Y">
+            <img class="ms-5"
+                src="https://t3.ftcdn.net/jpg/05/50/01/56/360_F_550015657_qkczaCj0zNDy1uuZtuwAK3MZpGhwRiQv.jpg"
+                alt="Logo" width="110" height="90px" class="d-inline-block align-text-top">
+            <span><B>LAPTOP</B></span>
+        </a>
+
+        <a class="navbar-brand"
+            href="https://www.flipkart.com/home-furnishing/pr?sid=jra&marketplace=FLIPKART&otracker=nmenu_sub_Home%20%26%20Furniture_0_Furnishing&fm=neo%2Fmerchandising&iid=M_f6748f1a-61f8-4261-8a03-08625c41ee01_1_372UD5BXDFYS_MC.A8O1FN5LHOZ5&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BFurnishings~All_A8O1FN5LHOZ5&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=A8O1FN5LHOZ5">
+            <img class="ms-5" src="https://i.pinimg.com/originals/57/71/a6/5771a66243d828f258194dd1b137f7f6.jpg"
+                alt="Logo" width="90" class="d-inline-block align-text-top">
+            <span><B>HOME-APPLIENCES</B></span>
+        </a>
+
+         <a class="navbar-brand" href="https://www.flipkart.com/two-wheelers-store?fm=neo%2Fmerchandising&iid=M_1907443b-8e26-47a8-b890-646281c7b823_1_372UD5BXDFYS_MC.SCJPZ04TFJJM&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Petrol%2BVehicles_SCJPZ04TFJJM&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=SCJPZ04TFJJM
+        ">
+            <img class="ms-5"
+                src="https://png.pngtree.com/png-clipart/20231120/original/pngtree-r15-black-color-white-background-png-image_13663028.png"
+                alt="Logo" width="90" class="d-inline-block align-text-top">
+            <span><B>BIKE</B></span>
+        </a> 
+
+
+
+
+    </div>
+
+
+
+    <div id="nn" class="container-fluid img-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+
+            </div>
+            <div class="container" style="max-width: 800px;">
+
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="https://petapixel.com/assets/uploads/2022/05/The-Science-Behind-Why-Watches-are-Set-to-10-10-in-Advertising-Photos.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoe-ads-design-template-a3b9249eaf0d13c30e8df3ec8f6d2aaf_screen.jpg?ts=1643186903"
+                                class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="https://img.freepik.com/free-psd/horizontal-banner-template-fashion-shopping-store_23-2148786821.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="text-center ">
+
+        <h2 style="font-family: Oswald, sans-serif;">WATCHES</h2>
+
+    </div>
+    <br>
+
+    <!-- card -->
+    <div class="d-flex justify-content-evenly flex-wrap container-fluid ">
+
+
+
+
+
+
+
+        <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#omega">
+            <img src="https://i.pinimg.com/236x/e0/6d/bf/e06dbfa4febaea3a3735eba741626771.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">OMEGA-RD42</h5>
+                <hr>
+                <!-- <p class="card-text">OMEGA was founded in 1848 and is a company of the Swatch Group, the world's leading
+                        watch manufacturer. For over 160 years the brand has been synonymous with excellence, innovation and
+                        precision.</p> -->
+                <a href="https://www.flipkart.com/titan-nq1805sl02-neo-gents-iv-analog-watch-men/p/itm77aab23df35b4?pid=WATFDNV4WSEWH8HK&lid=LSTWATFDNV4WSEWH8HKTSEPWG&marketplace=FLIPKART&q=WATCHES&store=r18&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=f8b6ad42-617c-45a1-b5c9-be31444baa8b.WATFDNV4WSEWH8HK.SEARCH&ppt=sp&ppn=sp&ssid=ns0otnmmj40000001718188031547&qH=227df0f46343d018"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#omega1">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/76af5b59858983.5a31b1e579533.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">OMEGA-RX18</h5>
+                <hr>
+                <!-- <p class="card-text">OMEGA was founded in 1848 and is a company of the Swatch Group, the world's leading
+                        watch manufacturer. For over 160 years the brand has been synonymous with excellence, innovation and
+                        precision.</p> -->
+                <a href="https://www.flipkart.com/titan-classique-suave-analog-watch-men/p/itm0b38ca266b5df?pid=WATGZ6SZJGRHHCFX&lid=LSTWATGZ6SZJGRHHCFXA10YO8&marketplace=FLIPKART&q=WATCHES&store=r18&srno=s_1_27&otracker=search&otracker1=search&fm=Search&iid=en_VXmFdgp8PyO8NxN4rMmhh8HtNBRsmqS_Qs4ZApFp2HxabT2SIMctkxFozVvGx9Xx1iXy7_rt6gkQBIpo16fRY04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=sp&ppn=sp&qH=227df0f46343d018"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#omega2">
+            <img src="https://petapixel.com/assets/uploads/2022/05/1641223786_1-omega-31150393001001-low-res-600x800.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">OMEGA-VT45</h5>
+                <hr>
+                <!-- <hr>
+                <p class="card-text">OMEGA was founded in 1848 and is a company of the Swatch Group, the world's leading
+                    watch manufacturer. For over 160 years the brand has been synonymous with excellence, innovation and
+                    precision.</p> -->
+                <a href="https://www.flipkart.com/titan-nq9308bm01-analog-watch-men/p/itmbfbcdedc317ae?pid=WATEH6Y4RTVPYGDB&lid=LSTWATEH6Y4RTVPYGDBZP7HWP&marketplace=FLIPKART&q=WATCHES&store=r18&srno=s_1_36&otracker=search&otracker1=search&fm=Search&iid=f8b6ad42-617c-45a1-b5c9-be31444baa8b.WATEH6Y4RTVPYGDB.SEARCH&ppt=sp&ppn=sp&qH=227df0f46343d018"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="card" style="width: 18rem; " data-bs-toggle="modal" data-bs-target="#omega3">
+            <img src="https://ih1.redbubble.net/image.3407521149.4373/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">OMEGA-ZX69</h5>
+                <hr>
+                <!-- <p class="card-text">OMEGA was founded in 1848 and is a company of the Swatch Group, the world's leading
+                    watch manufacturer. For over 160 years the brand has been synonymous with excellence, innovation and
+                    precision.</p> -->
+                <a href="https://www.flipkart.com/titan-classique-suave-analog-watch-men/p/itm8c739d804b64a?pid=WATGZ6TYKZKHGRHF&lid=LSTWATGZ6TYKZKHGRHFNWYVP9&marketplace=FLIPKART&q=WATCHES&store=r18&srno=s_1_22&otracker=search&otracker1=search&fm=Search&iid=en_VXmFdgp8PyO8NxN4rMmhh8HtNBRsmqS_Qs4ZApFp2HzMwJKSHP5oL2UsrQvAkteemr-96386zZsMrl0DjuAALYE8waCTrWcncKeK_ydPfoM%3D&ppt=sp&ppn=sp&qH=227df0f46343d018"
+                    class="btn btn-primary" style="text-align: center;">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+
+
+    <!-- cursol -->
+
+
+    <div class="card shadow">
+
+        <section id="hero" class="text-center py-5 bg-light">
+            <div class="container">
+                <h2>The new iPhone 15 pro</h2>
+                <p>Experience the future today.</p>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="iphoneCarousel1" class="carousel slide" data-ride="carousel">
+                            <!-- <ol class="carousel-indicators">
+                                <li data-target="#iphoneCarousel1" data-slide-to="0" class="active"></li>
+                                <li data-target="#iphoneCarousel1" data-slide-to="1"></li>
+                                <li data-target="#iphoneCarousel1" data-slide-to="2"></li>
+                            </ol> -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="100px"
+                                        src="https://mockupfree.net/wp-content/uploads/2023/07/01-4-scaled.jpg"
+                                        class="d-block w-100" alt="iPhone 14 ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img width="100px"
+                                        src="https://s3-alpha.figma.com/hub/file/4150014017/17b24521-a18a-4d10-afad-c4889a1e2619-cover.png"
+                                        class="d-block w-100" alt="iPhone 14">
+                                </div>
+                                <div class="carousel-item">
+                                    <img width="100px"
+                                        src="https://www.gizmochina.com/wp-content/uploads/2023/09/Titanium-iPhone-15-Pro.jpg"
+                                        class="d-block w-100" alt="iPhone 14 ">
+                                </div>
+                            </div>
+                            <!-- <a class="carousel-control-prev" href="#iphoneCarousel1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#iphoneCarousel1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="iphoneCarousel2" class="carousel slide" data-ride="carousel">
+                            <!-- <ol class="carousel-indicators">
+                                <li data-target="#iphoneCarousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#iphoneCarousel2" data-slide-to="1"></li>
+                                <li data-target="#iphoneCarousel2" data-slide-to="2"></li>
+                            </ol> -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://www.thestreet.com/.image/t_share/MTkyMTcwMzYwMDY0NDUxNzY1/aapl-low-light.jpg"
+                                        class="d-block w-100" alt="iPhone 14 Front View">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://www.notebookcheck.net/uploads/tx_nbc2/AppleiPhone14Pro__1__01.JPG"
+                                        class="d-block w-100" alt="iPhone 14 Back View">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn2.dineroenimagen.com/media/dinero/styles/original/public/images/2022/12/iphone15-bateria.jpg"
+                                        class="d-block w-100" alt="iPhone 14 Side View">
+                                </div>
+                                <!-- </div>
+                            <a class="carousel-control-prev" href="#iphoneCarousel2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#iphoneCarousel2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span> -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </div>
+    <br>
+
+
+
+    <div class="text-center ">
+
+        <h2 style="font-family: Oswald, sans-serif;">SHOES</h2>
+
+    </div>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- card 2 -->
+    <div class="d-flex justify-content-evenly flex-wrap  container-fluid">
+
+
+
+
+
+        <div class="card " style="width: 18rem;">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/eaa5ef128327031.61540e7a31630.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">NIKE-T5</h5>
+                <hr>
+                <!-- <p class="card-text">Nike has been creating great iconic sportswear for over five decades. Nike has
+                    created some of the best sneakers that not only influenced the sneakerhead culture but change
+                    the
+                    sneaker game completely.</p> -->
+                <a href="https://www.flipkart.com/nike-nk-react-miler-3-running-shoes-men/p/itma3fd0e52e36e7?pid=SHOGHVJ3GZB2EZBA&lid=LSTSHOGHVJ3GZB2EZBA4TWA5U&marketplace=FLIPKART&q=NIKE+SHOES&store=osp&srno=s_1_21&otracker=search&otracker1=search&fm=Search&iid=19ebbc50-7343-40cb-bac5-3a6084a2ea26.SHOGHVJ3GZB2EZBA.SEARCH&ppt=sp&ppn=sp&ssid=6bs6euzig00000001718189422443&qH=6181642496cb4e45"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+        <div class="card " style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/bf/7c/15/bf7c15d1f86626c820f365b5f42c62ae.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body" style="text-align: center;">
+                <h5 class="card-title">RED-TAPE</h5>
+                <hr>
+                <!-- <p class="card-text">Red Shoes is about hope, passion, support, and love. Red is the colour of the
+                    heart, the colour of love. Red Shoes is about living our best life.</p> -->
+                <a href="https://www.flipkart.com/red-tape-walking-shoes-men/p/itm21402592e1063?pid=SHOGHHVH4CGFHGPX&lid=LSTSHOGHHVH4CGFHGPXJZUEEF&marketplace=FLIPKART&q=red+tape+shoes&store=osp%2Fcil&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=af7fcad4-94ac-4309-9c5b-c9232eb9d530.SHOGHHVH4CGFHGPX.SEARCH&ppt=sp&ppn=sp&ssid=c4zbs3ckao0000001718189527835&qH=9cb1b6b3f99da57b"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+        <div class="card " style="width: 18rem;">
+            <img src="https://i.pinimg.com/originals/92/fc/32/92fc322a772b9fc32ce5f555e51528ea.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">B-FLASH</h5>
+                <hr>
+                <!-- <p class="card-text">Nike has been creating great iconic sportswear for over five decades. Nike has
+                    created some of the best sneakers that not only influenced the sneakerhead culture but change
+                    the
+                    sneaker game completely.</p> -->
+                <a href="https://www.flipkart.com/red-tape-sports-walking-shoes-men-soft-cushioned-insole-slip-resistance/p/itm5e5f817c7adfb?pid=SHOGW5NZJKBHFFRH&lid=LSTSHOGW5NZJKBHFFRHGPH0RF&marketplace=FLIPKART&q=red+tape+shoes&store=osp%2Fcil&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=en_N7P-sDLeR_OiURjl5dU-HH8IzWpovHqPyfMI-hROSOhkpjCwVGelWzWh9jiGMwytyBbjTWykXlBA_Zey1Lccqg%3D%3D&ppt=sp&ppn=sp&ssid=uc4c1qex800000001718189724951&qH=9cb1b6b3f99da57b"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="card " style="width: 18rem;">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sports-shoes-poster-design-template-5dd04842d8209ac0acf7d3b14f9e07a0_screen.jpg?ts=1676612653"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">NIKE-X9</h5>
+                <hr>
+                <!-- <p class="card-text">Nike has been creating great iconic sportswear for over five decades. Nike has
+                    created some of the best sneakers that not only influenced the sneakerhead culture but change
+                    the
+                    sneaker game completely.</p> -->
+                <a href="https://www.flipkart.com/nike-nk-renew-retaliation-tr-3-men-s-training-shoes-gym-men/p/itm5c745a0770177?pid=SHOGFY9FEHFBHU3G&lid=LSTSHOGFY9FEHFBHU3GDBB3UI&marketplace=FLIPKART&q=NIKE+SHOES&store=osp&srno=s_1_40&otracker=search&otracker1=search&fm=Search&iid=19ebbc50-7343-40cb-bac5-3a6084a2ea26.SHOGFY9FEHFBHU3G.SEARCH&ppt=sp&ppn=sp&qH=6181642496cb4e45"
+                    class="btn btn-primary ">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div class="text-center ">
+
+        <h2 style="font-family: Oswald, sans-serif;">FASHION-STYLE</h2>
+
+    </div>
+    <br>
+
+    <!-- card 3 -->
+    <div class="d-flex justify-content-evenly flex-wrap container-fluid">
+
+
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230621/WWwR/64923a83d55b7d0c63865a80/-473Wx593H-463539820-black-MODEL2.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"style="text-align: center;">KURTHI</h5>
+                <hr>
+                <!-- <p class="card-text">The nature and purposes of dress. Perhaps the most obvious function of dress is
+                    to
+                    provide warmth and protection. Many scholars believe, however, that the first crude garments and
+                    ornaments worn by humans were designed not for utilitarian but for religious or ritual purposes.
+                </p> -->
+                <a href="https://www.flipkart.com/nike-nk-react-miler-3-running-shoes-men/p/itma3fd0e52e36e7?pid=SHOGHVJ3GZB2EZBA&lid=LSTSHOGHVJ3GZB2EZBA4TWA5U&marketplace=FLIPKART&q=NIKE+SHOES&store=osp&srno=s_1_21&otracker=search&otracker1=search&fm=Search&iid=19ebbc50-7343-40cb-bac5-3a6084a2ea26.SHOGHVJ3GZB2EZBA.SEARCH&ppt=sp&ppn=sp&ssid=6bs6euzig00000001718189422443&qH=6181642496cb4e45"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://assets.vogue.com/photos/5f341f6f4721c86585cbb800/master/pass/fullsizeoutput_6bcd_1_1080x.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body"style="text-align: center;">
+                <h5 class="card-title">FLAIR-TOP</h5>
+                <hr>
+                <!-- <p class="card-text">The nature and purposes of dress. Perhaps the most obvious function of dress is
+                    to
+                    provide warmth and protection. Many scholars believe, however, that the first crude garments and
+                    ornaments worn by humans were designed not for utilitarian but for religious or ritual purposes.
+                </p> -->
+                <a href="https://www.flipkart.com/red-tape-walking-shoes-men/p/itm21402592e1063?pid=SHOGHHVH4CGFHGPX&lid=LSTSHOGHHVH4CGFHGPXJZUEEF&marketplace=FLIPKART&q=red+tape+shoes&store=osp%2Fcil&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=af7fcad4-94ac-4309-9c5b-c9232eb9d530.SHOGHHVH4CGFHGPX.SEARCH&ppt=sp&ppn=sp&ssid=c4zbs3ckao0000001718189527835&qH=9cb1b6b3f99da57b"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/dress/r/g/i/s-kf-p-wfl202-p-kiana-original-imagtjkwudpewkhj.jpeg?q=90&crop=false"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"style="text-align: center;">GOWN</h5>
+                <hr>
+                <!-- <p class="card-text">The nature and purposes of dress. Perhaps the most obvious function of dress is
+                    to
+                    provide warmth and protection. Many scholars believe, however, that the first crude garments and
+                    ornaments worn by humans were designed not for utilitarian but for religious or ritual purposes.
+                </p> -->
+                <a href="https://www.flipkart.com/red-tape-sports-walking-shoes-men-soft-cushioned-insole-slip-resistance/p/itm5e5f817c7adfb?pid=SHOGW5NZJKBHFFRH&lid=LSTSHOGW5NZJKBHFFRHGPH0RF&marketplace=FLIPKART&q=red+tape+shoes&store=osp%2Fcil&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=en_N7P-sDLeR_OiURjl5dU-HH8IzWpovHqPyfMI-hROSOhkpjCwVGelWzWh9jiGMwytyBbjTWykXlBA_Zey1Lccqg%3D%3D&ppt=sp&ppn=sp&ssid=uc4c1qex800000001718189724951&qH=9cb1b6b3f99da57b"
+                    class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/2/823a0a5SSRCCKK1008_5.jpg?rnd=20200526195200&tr=w-512"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"style="text-align: center;">SIDE-OPEN</h5>
+                <hr>
+                <!-- <p class="card-text">The nature and purposes of dress. Perhaps the most obvious function of dress is
+                    to
+                    provide warmth and protection. Many scholars believe, however, that the first crude garments and
+                    ornaments worn by humans were designed not for utilitarian but for religious or ritual purposes.
+                </p> -->
+                <a href="https://www.flipkart.com/nike-nk-renew-retaliation-tr-3-men-s-training-shoes-gym-men/p/itm5c745a0770177?pid=SHOGFY9FEHFBHU3G&lid=LSTSHOGFY9FEHFBHU3GDBB3UI&marketplace=FLIPKART&q=NIKE+SHOES&store=osp&srno=s_1_40&otracker=search&otracker1=search&fm=Search&iid=19ebbc50-7343-40cb-bac5-3a6084a2ea26.SHOGFY9FEHFBHU3G.SEARCH&ppt=sp&ppn=sp&qH=6181642496cb4e45"
+                    class="btn btn-primary ">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+
+
+
+    <div class="footer mt-5 bg-dark-subtle container-fluid">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="img"><img width="40px" class="img"
+                            src="https://st3.depositphotos.com/1688079/17322/i/450/depositphotos_173224464-stock-photo-e-commerce-special-blue-round.jpg"
+                            alt="">
+                        <span class="fw-bold">E-CART</span>
+                    </label>
+                    <p>website that allows people to buy and sell physical goods, services, and digital products
+                        over
+                        the
+                        internet rather than at a brick-and-mortar location. Through an e-commerce website, a
+                        business
+                        can process
+                        orders, accept payments, manage shipping and logistics, and provide customer service.</p>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-32">
+                    <h5>PRODUCTS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none ">GROCERY</a></li>
+                        <li><a href="#" class="text-decoration-none ">BIKE</a></li>
+                        <li><a href="#" class="text-decoration-none ">LAPTOP</a></li>
+                        <li><a href="#" class="text-decoration-none ">HOME-APPLIENCES</a></li>
+                        <li><a href="#" class="text-decoration-none ">FASHION-STYLE</a></li>
+                        <li><a href="#" class="text-decoration-none ">MOBILE</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-32">
+                    <h5>BRANCHES</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none ">INDIA</a></li>
+                        <li><a href="#" class="text-decoration-none ">GERMANY</a></li>
+                        <li><a href="#" class="text-decoration-none ">Wakanda</a></li>
+                        <li><a href="#" class="text-decoration-none ">AMERICA</a></li>
+                        <li><a href="#" class="text-decoration-none ">CHINA</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-322">
+                    <h5>GROUP-COMPANIES</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none ">MYNTRE</a></li>
+                        <li><a href="#" class="text-decoration-none ">E-CART WHOLESALE</a></li>
+                        <li><a href="#" class="text-decoration-none ">CLEAN-TRIP</a></li>
+                        <li><a href="#" class="text-decoration-none ">SHOPSY</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-32">
+                    <h5>Contact us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none ">+91 9188455647</a></li>
+                        <li><a href="#" class="text-decoration-none ">+91 8559632471</a></li>
+                        <li><a href="#" class="text-decoration-none ">+91 9895632745</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- modal card 1 -->
+
+
+
+
+
+        <div class="modal fade" id="omega" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">OMEGA-RD42</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Spider-Man content goes here -->
+                        <img class="img-fluid d-block mx-auto"
+                            src="https://i.pinimg.com/236x/e0/6d/bf/e06dbfa4febaea3a3735eba741626771.jpg" alt=""><br>
+                        The world's leading watch manufacturer. For over 160 years the brand has been synonymous
+                        with
+                        excellence, innovation and precision.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary"
+                            onclick="window.location.href='https://www.flipkart.com/titan-classique-suave-analog-watch-men/p/itm8c739d804b64a?pid=WATGZ6TYKZKHGRHF&lid=LSTWATGZ6TYKZKHGRHFNWYVP9&marketplace=FLIPKART&q=WATCHES&store=r18&srno=s_1_22&otracker=search&otracker1=search&fm=Search&iid=en_VXmFdgp8PyO8NxN4rMmhh8HtNBRsmqS_Qs4ZApFp2HzMwJKSHP5oL2UsrQvAkteemr-96386zZsMrl0DjuAALYE8waCTrWcncKeK_ydPfoM%3D&ppt=sp&ppn=sp&qH=227df0f46343d018';">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal card 1 -->
+
+        <div class="modal" id="omega1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
